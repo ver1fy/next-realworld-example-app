@@ -1,4 +1,4 @@
-import { Banner } from "realworld/src/components/Banner";
+import { Banner } from "@/components/Banner";
 
 const Home = () => {
   return (

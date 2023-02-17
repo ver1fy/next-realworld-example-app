@@ -4,7 +4,7 @@ import {
   Source_Serif_Pro,
   Titillium_Web,
 } from "@next/font/google";
-import { Navbar } from "realworld/src/components/Navigation";
+import { Navbar } from "@/components/Navigation";
 import "./globals.css";
 
 const titillium = Titillium_Web({
