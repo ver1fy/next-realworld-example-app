@@ -1,8 +1,10 @@
+import { Banner } from "realworld/src/components/Banner";
+
 const Home = () => {
   return (
-    <main className="home-page">
-      <h1>Hello World!</h1>
-    </main>
+    <div className="home-page">
+      <Banner title="conduit" tagline="A place to share your knowledge." />
+    </div>
   );
 };
 
