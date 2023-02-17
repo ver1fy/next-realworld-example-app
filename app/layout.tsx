@@ -4,6 +4,7 @@ import {
   Source_Serif_Pro,
   Titillium_Web,
 } from "@next/font/google";
+import { Navbar } from "realworld/src/components/Navigation";
 import "./globals.css";
 
 const titillium = Titillium_Web({
@@ -37,7 +38,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 };
